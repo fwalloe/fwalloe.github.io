@@ -75,7 +75,6 @@ article p {
     position: absolute; 
     display: table; #
     font-size: 90%; #
-    overflow-wrap: normal;
     
 }
 
