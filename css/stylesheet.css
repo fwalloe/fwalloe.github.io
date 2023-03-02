@@ -58,7 +58,7 @@ article {
     z-index:99;
     width:50%;
     height: 85%;
-    position:absolute;
+    position:relative;
     margin: 5% 25% 5% 25%;	
     top: 2%;
     bottom: 10.5%;
