@@ -61,8 +61,8 @@ article {
     position: absolute;
     margin: 5% 25% 5% 25%;	
     background-color: white;
-    top: 1%;
-    bottom: 2%;
+    top: 0.5%;
+    bottom: 0.5%;
     opacity: 0.90;
     text-align: middle; #
     display: table; #
