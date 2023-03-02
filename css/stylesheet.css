@@ -64,19 +64,20 @@ article {
     bottom: 10.5%;
     background-color: white;
     opacity: 0.90;
-}
-
-article p {
     text-align: middle; #
+    display: table; #
+    font-size: 90%; #
+}
+/*
+article p {
+
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 5%;
     padding-bottom: 5%;
-    position: absolute; 
-    display: table; #
-    font-size: 90%; #
-    
+    position: absolute;   
 }
+*/
 
 /*header*/
 
