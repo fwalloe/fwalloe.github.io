@@ -59,8 +59,9 @@ article {
     width:auto;
     min-width:40%;
     max-width:100%;
-    height:40%;
-    height:auto;
+    height: 100%;
+    /*height:40%;
+    height:auto;*/
     min-height:20%;
     text-align: middle;
     margin: 5% 25% 10% 25%;
