@@ -6,7 +6,7 @@ body{
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	color:black;
+	color: black;
 	background: #1c1c1c;
 	font: 16px/1.4em 'PT Sans', sans-serif;;
 	color: #1c1c1c;
@@ -58,7 +58,7 @@ article {
     z-index:99;
     width:50%;
     height: 85%;
-    position: reative;
+    position: absolute;
     margin: 5% 25% 5% 25%;	
     background-color: white;
     opacity: 0.90;
