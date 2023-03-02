@@ -68,12 +68,15 @@ article {
 
 article p {
     text-align: middle; #
-    margin: 5% 5% 5% 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     position: absolute; 
     display: table; #
     font-size: 90%; #
     overflow-wrap: normal;
-    width: 40%;
+    
 }
 
 /*header*/
