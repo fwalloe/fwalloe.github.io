@@ -62,12 +62,13 @@ article {
     margin: 5% 25% 5% 25%;	
     background-color: white;
     top: 0.5%;
-    bottom: 0.5%;
+    bottom: 2.5%;
     opacity: 0.90;
     text-align: middle; #
     display: table; #
     font-size: 90%; #
 }
+
 /*
 article p {
 
