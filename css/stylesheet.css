@@ -14,18 +14,6 @@
     --font-mono: 'Fira Code', monospace;
 }
 
-@media (prefers-color-scheme: dark) {
-    :root {
-        --bg-color: #1a1b1c; 
-        --text-main: #b8b2a7; 
-        --text-lead: #e2dfd5; 
-        --text-light: #7a7670; 
-        --accent-1: #1a1918; 
-        --accent-2: #b8b2a7; 
-        --border-soft: #2e2f30;
-    }
-}
-
 * { 
     margin: 0; 
     padding: 0; 
