@@ -1,115 +1,57 @@
 <!DOCTYPE html>
-<!-- All images by Fredrik Walløe under Creative Commons license (Attribution-NoDerivs) unless otherwise stated.-->
-
-<html lang=en>
-<html>
-
+<html lang="en">
 <head>
-	<title>Fredrik Wall&#248;e - Analyst</title>
-	<link href="css/stylesheet.css" media="screen" rel="stylesheet" type="text/css" />
-
-	<meta charset=utf-8>
-	
-	<meta name="description" content="Fredrik Walløe is a Norwegian freelance journalist and writer">
-
-	<!--Mobilemeta-->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-
-	
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fredrik Walløe - Information Security</title>
+    <meta name="description" content="Fredrik Walløe is a senior technical lead within IT security, focused on IT engineering and automation.">
+    <link href="css/stylesheet.css" media="screen" rel="stylesheet" type="text/css" />
 </head>
+<body>
+    <div class="container">
+        <header>
+            <a href="index.html" class="logo">Fredrik Walløe</a>
+            
+            <input type="checkbox" id="menu-toggle" class="menu-btn">
+            <label for="menu-toggle" class="menu-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+            </label>
+            
+            <ul class="nav-links">
+                <li><a href="journalism.html">Journalism</a></li>
+                <li><a href="writing.html">Writing</a></li>
+                <li><a href="infosec.html">InfoSec</a></li>
+                <li><a href="programming.html">Programming</a></li>
+                <li><a href="photography.html">Photography</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </header>
 
-<body>	
+        <main>
+            <div id="cover_image">
+                <img src="images/infosec.jpg" alt="A cut wire" class="hero-img">
+            </div>    
 
-	<div class="wrapper">
-	
-		<header>
-		
-			<a href="index.html"><h1 class="Fredrik Walløe"></h1></a>
-			
-		</header>
-	
-		
-		<nav id="navigation">
-		
-			<ul>
-			
-				<li><a href="journalism.html">Journalism</a></li>
-			
-				<li><a href="writing.html">Writing</a></li>
+            <article>
+                <p class="lead">As a student at Roehampton University I wrote a dissertation about the representation of Iran's nuclear programme in British opinion pieces, and it fascinated me how Stuxnet became an alternative to conventional attacks on the country's nuclear facilities. This sowed the seeds of an interest in information security, which only grew more intense as an MA student at Goldsmiths University, where I wrote a dissertation on the Snooper's Charter.</p> 
 
-				<li><a href="infosec.html">Information Security</a></li>
-			
-				<li><a href="programming.html">Programming</a></li>
+                <p>A few years later, in 2015, this interest had become sufficiently intense to justify a bachelor degree in Information Security at the Norwegian University of Science and Technology in Gjøvik (formerly Høyskolen i Gjøvik), where I wrote a dissertation about Key Reinstallation Attacks against WPA2 for mnemonic, where we sought to automate the attack using proof-of-concept scripts developed by Mathy Vanhoef.</p>
 
-				<li><a href="photography.html">Photography</a></li>
-			
-				<li><a href="portfolio.html">Portfolio</a></li>
-			
-				<li><a href="contact.html">Contact</a></li>
+                <p>During these studies, I also worked part-time as a Security Analyst at mnemonic in Oslo for 2.5 years before transitioning to a more specialized role as Security Intelligence Analyst at IBM; in the IBM Nordic SOC I got started with threat hunting, incident response and found a passion for driving automation and improving processes, before later gaining leadership experience by leading the Nordic SOC for 2 months. After this brief stint as acting SOC manager, I returned to more familiar tasks at TietoEVRY, where I led a number of projects, drove automation efforts, improved routines and came to lead the Engineering team in the Security Operations Center.</p>
 
-				<!-- Menu HTML and CSS by Eric Meyer -->
-			
-			</ul>
+                <p>Today, I am a Senior Security Intelligence Analyst and Team Lead for Engineering at Vivicta, where I get to lead a talented team of engineers and spend my days herding 10+ Kubernetes clusters, look after a few hundred servers, wander the Azure mists and act as a technical firefighter across the company, which has seen me serve customers across Norway, Sweden and Finland. Always eager to spend time in the command line or dig into new projects and technologies, I have begun to leverage ML and AI in automation and I am interested in the capabilities here, and how they can be leveraged in meaningful ways despite the weaknesses of the technology as it exists today.</p>
+            </article>
+        </main>
 
-		</nav><!--end navigation-->
-		
-	</div><!--end wrapper-->
-
-<div id="cover_image">
-		<img src="/images/infosec.jpg" alt="A cut wire, photographed and edited by Fredrik Walløe" style="width:100%;height:auto;">
-	</div>	
-
-<article>
-
-
-	
-	<p><br>As a student at Roehampton University I wrote a dissertation about the representation of Iran's nuclear programme in British opinion pieces, and it fascinated me how Stuxnet became an alternative to conventional attacks on the country's nuclear facilities. This sowed the seeds of an interest in information security, which only grew more intense as an MA student at Goldsmiths University, where I wrote a dissertation on the Snooper's Charter.</p> 
-
-	<p>A few years later, in 2015, this interest had become sufficiently intense to justify a bachelor degree in Information Security at the Norwegian University of Science and Technology in Gjøvik (formerly Høyskolen i Gjøvik), where I wrote a dissertation about Key Reinstallation Attacks against WPA2 for mnemonic, where we sought to automate the attack using proof-of-concept scripts developed by Mathy Vanhoef.</p>
-
-	<p>During these studies, I also worked part-time as a Security Analyst at mnemonic in Oslo for 2.5 years before transitioning to a more specialized role as Security Intelligence Analyst at IBM; in the IBM Nordic SOC I got started with threat hunting, incident response and found a passion for driving automation and improving processes, before later gaining leadership experience by leading the Nordic SOC for 2 months. After this brief stint as acting SOC manager, I returned to more familiar tasks at TietoEVRY, where I led a number of projects, drove automation efforts, improved routines and came to lead the Engineering team in the Security Operations Center.</p>
-
-	<p>Today, I am a Senior Security Intelligence Analyst and Team Lead for Engineering at Vivicta, where I get to lead a talented team of engineers and spend my days herding 10+ Kubernetes clusters, look after a few hundred servers, wander the Azure mists and act as a technical firefighter across the company, which has seen me serve customers across Norway, Sweden and Finland. Always eager to spend time in the command line or dig into new projects and technologies, I have begun to leverage ML and AI in automation and I am interested in the capabilities here, and how they can be leveraged in meaningful ways despite the weaknesses of the technology as it exists today.</p>
-
-</article>
-
-<div class="wrapper">
-	
-		<header>
-		
-			<h1 class="logo"></h1>
-			
-		</header>
-	<div id="footer">
-
-		<ul>
-			<li><a href="https://www.facebook.com/pages/Fredrik-Wall%C3%B8e/329061847292388">Facebook</a></li>
-			<li><a href="https://no.linkedin.com/in/fredrikwalloe">LinkedIn</a></li>
-			<li><a href="https://twitter.com/fwalloe">Twitter</a></li>
-			<li>
-				<script language="JavaScript">
-				var username = "freelance";
-				var domain = "fredrikwalloe.com";
-				var linktext = username + "@" + domain ;
-				document.write("<a href='" + "mail" + "to:" + username + "@" + domain + "'>" + "email" + "</a>");
-				</script></li>
-			
-		</ul>
-
-	</div><!--end footer-->
-</div><!--end wrapper-->
-
-<!--Google Analytics-->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-25501942-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
+        <footer>
+            <div class="footer-divider"></div>
+            <ul>
+                <li><a href="https://www.facebook.com/pages/Fredrik-Wall%C3%B8e/329061847292388">Facebook</a></li>
+                <li><a href="https://no.linkedin.com/in/fredrikwalloe">LinkedIn</a></li>
+                <li><a href="mailto:freelance@fredrikwalloe.com">Email</a></li>
+            </ul>
+        </footer>
+    </div>
 </body>
+</html>
